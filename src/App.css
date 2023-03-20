@@ -1,0 +1,43 @@
+.app {
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 52px;
+}
+
+.content {
+    width: 560px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2px solid #767676;
+    padding: 10px 0;
+    margin-bottom: 32px;
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error {
+    width: 100%;
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
